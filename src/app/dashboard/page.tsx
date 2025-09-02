@@ -178,19 +178,14 @@ export default function Dashboard() {
                                     <span className="font-semibold text-[17px] text-[#1D1D1D]">{title}</span>
                                     <span className="font-medium text-[#575757] text-[17px] flex flex-row items-center gap-1">{value} <span><svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M15 8.03186L10 13.0319L5 8.03186H15Z" fill="#575757"/>
-</svg>
-</span></span>
+                                    </svg>
+                                    </span></span>
                                 </div>
                             </div>
                         ))}
                     </section>
                 </div>
             </main>
-
-            {/* Logout button bottom left */}
-            {/*<button className="fixed bottom-8 left-8 w-12 h-12 rounded-full bg-white bg-opacity-70 backdrop-blur-sm shadow flex items-center justify-center hover:bg-red-100">*/}
-            {/*    <FiUser size={24} className="text-gray-700" />*/}
-            {/*</button>*/}
         </div>
     );
 }
